@@ -23,13 +23,20 @@ const Footer = () => {
             manuelrivas75147825@gmail.com
           </a>
         </li>
-        <li className="flex gap-1 items-center">
+        <li className="flex gap-1 items-center mt-2">
           <CiLinkedin />
-          linkdlin.com/username
+          <a
+            href="https://www.linkedin.com/in/carlos-rivas-aa2875265"
+            target="blank"
+          >
+            Carlos Rivas
+          </a>
         </li>
-        <li className="flex gap-1 items-center">
+        <li className="flex gap-1 items-center mt-2">
           <FaGithub />
-          <a href="https://github.com/CarlosEnmanuel">Carlos Enmanuel</a>
+          <a href="https://github.com/CarlosEnmanuel" target="blank">
+            Carlos Enmanuel
+          </a>
         </li>
       </ul>
     </div>

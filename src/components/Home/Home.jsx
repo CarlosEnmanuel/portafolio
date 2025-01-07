@@ -1,5 +1,5 @@
 import "react";
-import avatarImg from "../../assets/7358602-removebg-preview.png";
+import avatarImg from "../../assets/perfil.png";
 import TextChange from "../TextChange";
 
 const Home = () => {
