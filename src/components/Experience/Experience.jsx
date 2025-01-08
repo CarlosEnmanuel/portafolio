@@ -1,11 +1,12 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { FaCss3, FaFigma, FaHtml5, FaJs, FaAws } from "react-icons/fa";
+import { FaCss3, FaFigma, FaHtml5, FaJs, FaAws, FaGitAlt} from "react-icons/fa";
 // import { FaGoogle } from "react-icons/fa";
 import { SiMongodb, SiMysql, SiGooglecloud, SiPhp } from "react-icons/si";
 import { GoProjectSymlink } from "react-icons/go";
 import { GrServerCluster } from "react-icons/gr";
 import { FcLinux } from "react-icons/fc";
+import { VscGithub } from "react-icons/vsc";
 
 const Experience = () => {
   return (
@@ -42,6 +43,12 @@ const Experience = () => {
           </span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <SiPhp color="#7a7fb5" size={50} />
+          </span>
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <FaGitAlt color="#ef5032" size={50} />
+          </span>
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <VscGithub color="#dadada" size={50} />
           </span>
         </div>
         <div>

@@ -9,9 +9,8 @@ const Home = () => {
         <h1 className="text-xl md:text-6xl font-bold flex leading-normal tracking-tighter">
           <TextChange />
         </h1>
-        <p className="text-sm md:text-2xl tracking-tight ">
-          Amo la tecnología y los sistemas informáticos, soy Programador
-          Frontend
+        <p className="text-sm md:text-2xl tracking-tight mt-4">
+          Amo la tecnología, la programación y el estudio continuo, soy Egresado en Sistemas Informáticos
         </p>
         <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
           <a href="#Footer">Contáctame</a>

@@ -3,12 +3,13 @@ import ProjectCard from "./ProjectCard";
 import rickMortyImg from "../../assets/rickMorty.png";
 import crudImg from "../../assets/crud.png";
 import ListaImg from "../../assets/lista.png";
+import palindromoImg from "../../assets/palindromo.png"
 
 const Projects = () => {
   return (
     <div id="Projects" className="p-10 md:p-24 text-white ">
       <h1 className="text-2xl md:text-4xl text-white font-bold">Proyectos</h1>
-      <div className="py-12 px-8 flex flex-wrap gap-5 text-justify">
+      <div className="py-12 px-8 flex flex-wrap gap-5s">
         <ProjectCard
           title="Rick & Morty"
           main="Proyecto consumiendo api de Rick & Morty con las tecnologías HTML, CSS y JavaScript, mostrando el resultado en cards con un diseño único."
@@ -18,17 +19,17 @@ const Projects = () => {
         />
         <ProjectCard
           title="CRUD con LocalStorage"
-          main="Proyecto que clona funcionalidades de YouTube utilizando Next.js y componentes reutilizables."
+          main="Este proyecto es un CRUD básico que registra datos de una empresa o entidad, guarda los datos en LocalStorage prácticando su uso y comportamiento."
           image={crudImg}
           demoLink="https://carlosenmanuel.github.io/crud_LocalStorage.github.io/"
-          sourceLink="https://github.com/tuUsuario/YouTubeClone"
+          sourceLink="https://github.com/CarlosEnmanuel/crud_LocalStorage.github.io.git"
         />
         <ProjectCard
-          title="Netflix Clone"
-          main="Un clon de Netflix creado con React y TailwindCSS, integrando diseño moderno y funcionalidad."
-          image={ListaImg}
-          demoLink="https://demo-netflix-clone.com"
-          sourceLink="https://github.com/tuUsuario/NetflixClone"
+          title="Palindromo"
+          main="Puedes averiguar cuáles palabras son palindromas( son aquellas que se leen igual de izquierda a derecha que de derecha a izquierda)."
+          image={palindromoImg}
+          demoLink="https://carlosenmanuel.github.io/Palindromo.github.io/"
+          sourceLink="https://github.com/CarlosEnmanuel/Palindromo.github.io.git"
         />
         <ProjectCard
           title="Lista de Tareas"
